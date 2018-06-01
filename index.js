@@ -28,8 +28,13 @@ function deepestChild() {
   
   while (childNode) {
     currentNode = childNode;
+<<<<<<< HEAD
     childNode = currentNode.querySelector('div');
   } 
   return currentNode
+=======
+    childNode = childNode.querySelector('div');
+  }
+>>>>>>> 6e49426aa47684827a7d8cf433baf9a3b95152f7
 }
 
